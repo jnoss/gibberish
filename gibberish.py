@@ -29,6 +29,8 @@ def generate_word():
     """Returns a random consonant-vowel-consonant pseudo-word."""
     return ''.join(random.choice(s) for s in (initial_consonants,
                                               vowels,
+                                              initial_consonants,
+                                              vowels,
                                               final_consonants))
 
 
